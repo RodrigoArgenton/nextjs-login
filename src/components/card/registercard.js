@@ -1,6 +1,5 @@
-import styles from './loginCar.module.css';
-
-export default function LoginCard({title, children}){
+import styles from './register.module.css'
+export default function RegisterCard({title, children}){
   return(
     <>
       <div className={styles.card}>

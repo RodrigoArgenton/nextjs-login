@@ -1,4 +1,4 @@
-import LoginCard from "../../src/components/loginCard/loginCard";
+import LoginCard from "../../src/components/card/loginCard";
 import styles from "../../styles/Login.module.css";
 
 export default function Login() {

@@ -1,10 +1,13 @@
-import LoginCard from '../../src/components/loginCard/loginCard'
+import RegisterCard from '../../src/components/card/registercard'
+import styles from '../../styles/Register.module.css'
 
 export default function Register() {
   return (
     <>
-      <div>
-        <LoginCard />
+      <div className={styles.background}>
+        <RegisterCard title="Registre-se agora!">
+          teste
+        </RegisterCard>
       </div>
     </>
   )
