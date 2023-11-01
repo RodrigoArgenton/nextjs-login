@@ -1,4 +1,4 @@
-import styles from './register.module.css'
+import styles from './registerCard.module.css'
 export default function RegisterCard({title, children}){
   return(
     <>
