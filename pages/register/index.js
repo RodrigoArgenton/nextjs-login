@@ -10,7 +10,7 @@ export default function Register() {
       <div className={styles.background}>
         <RegisterCard title="Registre-se agora!">
           <form className={styles.form}>
-            <Input type='text' placeholder='Seu nome'/>
+            <Input type='name' placeholder='Seu nome'/>
             <Input type='email' placeholder='Seu e-mail'/>
             <Input type='password' placeholder='Senha'/>
             <Button>Cadastrar</Button>
